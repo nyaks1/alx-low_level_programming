@@ -1,18 +1,24 @@
+#include <stdlib.h>
 #include <stdio.h>
-#include <ctype.h>
+#include <time.h>
+
 /**
-*main - Program to print alphabet letter followed by new line
-*
-*Return: return 0
+ * main - Prints alphabet
+ * @void: Empty parameter list for main.
+ *
+ * Description: Prints the alphabet in lower case
+ * Can only use putchar
+ *
+ * Return: 0 for success
 */
 int main(void)
 {
-	int letter;
-	
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char letter = 'a';
+
+	while (letter <= 'z')
 	{
-		letter = tolower(letter);
 		putchar(letter);
+		letter++;
 	}
 	putchar('\n');
 	return (0);
