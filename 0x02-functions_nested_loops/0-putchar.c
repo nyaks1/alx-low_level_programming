@@ -5,7 +5,7 @@
  *
  * Return: always 0 (success)
  */
-int putchar(int);
+int main(void);
 {
     putchar('_');
     putchar('p');
@@ -17,5 +17,5 @@ int putchar(int);
     putchar('r');
     putchar('\n');
 
-    return 0;
+    return (0);
 }
