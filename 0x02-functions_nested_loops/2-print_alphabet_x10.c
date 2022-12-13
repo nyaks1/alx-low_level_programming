@@ -12,7 +12,7 @@ int letter;
 while (counter++ <= 9)
 {
 for (letter = 'a'; letter <= 'z'; letter++)
-_putchar(letter);
+putchar(letter);
 
 _putchar(10);
 }
