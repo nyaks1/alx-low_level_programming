@@ -1,26 +1,29 @@
+#include "main.h"
 #include <stdio.h>
+
 /**
-*main - prints out first 50
-*fibonacci suit numbers
-*Return: return 0
-*/
+ * main - print sum of all multiples of 3 and 5 up to 1024
+ *
+ * @void: Empty parameter list for main
+ *
+ * Description: prints the sum of all multiples of 3 and 5
+ * up to but not including 1024
+ *
+ * Return: return 0
+ *
+ **/
+
 int main(void)
 {
-int inc;
-unsigned long n1 = 0, n2 = 1, n3;
-for (inc = 0; inc < 50; inc++)
-{
-n3 = n1 + n2;
-printf("%lu", n3);
-n1 = n2;
-n2 = n3;
+	int sum, i;
 
-if (inc == 49)
-printf("\n");
-else
-printf(", ");
+	sum = 0;
 
-}
-
-return (0);
+	for (i = 1; i < 1024; i++)
+	{
+		if ((i % 3 == 0) || (i % 5 == 0))
+			sum += i;
+	}
+	printf("%d\n", sum);
+	return (0);
 }
