@@ -4,12 +4,12 @@
 *it prints in lowercase
 *Return: no return
 */
-void print_alphabet(void)
+int main(void)
 {
 int letter;
 for (letter = 'a'; letter <= 'z'; letter++)
 {
-_putchar (letter);
+putchar (letter);
 }
-_putchar (10);
+return (0);
 }
