@@ -1,10 +1,13 @@
 #include "main.h"
 
 /**
- * main - print _putchar, ollowed by a new line
+ * main - Prints _putchar
+ * @void: Empty parameter list for main.
  *
- * Retun: 0 on success
- */
+ * Description: Prints without stdio
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
 	_putchar('_');
@@ -17,5 +20,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-
 }
