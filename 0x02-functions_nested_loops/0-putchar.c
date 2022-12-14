@@ -1,21 +1,24 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - Prints Holberton
+ * @void: Empty parameter list for main.
  *
- * Return: always 0 (success)
- */
+ * Description: Prints Holberton w/out stdio
+ *
+ * Return: 0 for success
+*/
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
-
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
 	return (0);
 }
