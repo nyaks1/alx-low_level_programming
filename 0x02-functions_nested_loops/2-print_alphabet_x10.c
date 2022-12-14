@@ -12,8 +12,8 @@ int letter;
 while (counter++ <= 9)
 {
 for (letter = 'a'; letter <= 'z'; letter++)
-putchar(letter);
+_putchar(letter);
 
-putchar(10);
+_putchar(10);
 }
 }
