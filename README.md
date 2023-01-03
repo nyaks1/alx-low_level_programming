@@ -1,1 +1,1 @@
-hello world project
+Even more pointer, arrays and strings project
